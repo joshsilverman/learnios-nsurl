@@ -8,12 +8,10 @@
 
 #import "Dropbox.h"
 
-#warning INSERT YOUR OWN API KEY and SECRET HERE
-static NSString *apiKey = @"YOUR_KEY";
-static NSString *appSecret = @"YOUR_SECRET";
+static NSString *apiKey = @"jyx0dxty70vjn7r";
+static NSString *appSecret = @"hwrzd7khjsv5zix";
 
-#warning THIS FOLDER MUST BE CREATED AT THE TOP LEVEL OF YOUR DROPBOX FOLDER, you can then share this folder with others
-NSString * const appFolder = @"byteclub";
+NSString * const appFolder = @"learnios-nsurl";
 
 NSString * const oauthTokenKey = @"oauth_token";
 NSString * const oauthTokenKeySecret = @"oauth_token_secret";
